@@ -1,8 +1,7 @@
 ### Hello, dear internet reader.
 
+- 🌱 Static HTML Deployments (I love Hugo!)
 - 🔭 Spring Boot Applications
-- 🌱 Static HTML Deployments
+- 📝 Technical COntent Writing
 
-📫 Reach me with a GitHub message!
-
-⚡ Fun fact: I will reply.
+📫 Reach me with a GitHub message, I will reply.
