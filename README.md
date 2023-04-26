@@ -2,6 +2,6 @@
 
 - 🌱 Static HTML Deployments (I love Hugo!)
 - 🔭 Spring Boot Applications
-- 📝 Technical COntent Writing
+- 📝 Technical Content Writing
 
 📫 Reach me with a GitHub message, I will reply.
