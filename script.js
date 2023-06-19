@@ -107,7 +107,7 @@ events.forEach(e => {
     if (e.hasOwnProperty("link")) {
         let eventLink = eventLinkTemplate.cloneNode();
         eventLink.href = e.link;
-        eventLink.innerText = "Location";
+        eventLink.innerText = "More Info";
         eventDetails.appendChild(eventLink);
     }
     let eventCost = eventCostTemplate.cloneNode();
