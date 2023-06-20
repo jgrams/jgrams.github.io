@@ -101,7 +101,7 @@ events.sort((a, b) => {
 });
 events.forEach(e => {
     let eventContainer = eventItemContainerTemplate.cloneNode();
-    
+
     let eventDetails = birthdayEventTemplate.cloneNode();
     eventDetails.innerText = e.description;
     if (e.hasOwnProperty("link")) {
