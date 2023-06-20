@@ -345,15 +345,19 @@ header {
   0% {
     opacity: 1;
   }
+
   25% {
     opacity: 0;
   }
+
   50% {
     opacity: 1;
   }
+
   75% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -363,12 +367,15 @@ header {
   0% {
     opacity: 0;
   }
+
   25% {
     opacity: 1;
   }
+
   50% {
     opacity: 0;
   }
+
   100% {
     opacity: 0;
   }
@@ -378,12 +385,15 @@ header {
   0% {
     opacity: 0;
   }
+
   50% {
     opacity: 0;
   }
+
   75% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
   }
@@ -396,7 +406,7 @@ header {
 
 .right-candle-flicker {
   animation-name: right-flame;
-  opacity:100%;
+  opacity: 100%;
 }
 
 .left-candle-flicker {
@@ -422,11 +432,14 @@ header {
   fill: none;
   stroke-dasharray: 545;
   stroke-dashoffset: 545;
-  animation: smoke-rise 12s forwards;
+  animation: smoke-rise 14s forwards;
 }
 
 @keyframes smoke-rise {
-  80% { stroke-opacity: .001;}
+  80% {
+    stroke-opacity: .001;
+  }
+
   100% {
     stroke-dashoffset: -545;
     stroke: lightblue;
@@ -434,5 +447,3 @@ header {
     stroke-opacity: 0;
   }
 }
-
-
