@@ -114,7 +114,7 @@ events.forEach(e => {
     if (e.hasOwnProperty("cost")) {
         eventCost.innerHTML = "Cost: $" + e.cost;
     } else {
-        eventCost.innerHTML = "Cost: Free!";
+        eventCost.innerHTML = "Free!";
 
     }
     eventDetails.appendChild(eventCost);
@@ -136,4 +136,17 @@ events.forEach(e => {
     allEventContainer.appendChild(eventContainer);
     let containerDiv = document.getElementById(dateItemContainerIdBase + e.date);
     containerDiv.classList.add("calendar-table__event");
+})
+
+// Candle Flame Onclick Animation
+const candleFlame = document.getElementById("flame-group");
+const candleSmoke = document.getElementById("candle-smoke");
+const snuffedOutClass = "dark-candle";
+
+candleFlame.addEventListener("click", (e) => {
+    for (const flameElement of candleFlame.children) {
+        flameElement.classList = snuffedOutClass;
+        candleSmoke.classList.remove(snuffedOutClass);
+        candleSmoke.classList.add("candle-smoke");
+    }
 })

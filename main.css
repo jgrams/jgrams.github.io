@@ -410,4 +410,29 @@ header {
   fill: black;
 }
 
+.dark-candle {
+  fill: none;
+  stroke: none;
+}
+
+.candle-smoke {
+  stroke: #848884;
+  stroke-width: 12.2;
+  stroke-linecap: round;
+  fill: none;
+  stroke-dasharray: 545;
+  stroke-dashoffset: 545;
+  animation: smoke-rise 12s forwards;
+}
+
+@keyframes smoke-rise {
+  80% { stroke-opacity: .001;}
+  100% {
+    stroke-dashoffset: -545;
+    stroke: lightblue;
+    stroke-width: 40;
+    stroke-opacity: 0;
+  }
+}
+
 
