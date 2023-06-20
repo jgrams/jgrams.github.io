@@ -4,7 +4,7 @@ const events = [
     {
         date: 4,
         time: "10:00 - 12:00",
-        title: "Pickleball At Maggie Dailey",
+        title: "Pickleball At Maggie Daley",
         description: "Prepare to be crushed at sports by people twice your age. I have extra paddles, you have a strong spirit and remembered to bring water.",
         link: "https://maggiedaleypark.com/things-to-do-see/tennis-courts/"
     },
@@ -20,7 +20,7 @@ const events = [
         time: "20:00 - 23:00",
         title: "Bouldering In Maggie Daley Park",
         description: "Maggie Daley Park has the best deal on climbing in the city of Chicago. You climb up, then jump down until your hands hurt. It's practically a metaphor for life.",
-        link: "https://www.toool.us/meetings.php",
+        link: "https://maggiedaleypark.com/things-to-do-see/climbing-wall/",
         cost: 15
     },
     {
@@ -28,14 +28,13 @@ const events = [
         time: "18:00 - 20:00",
         title: "Visit the MCA",
         description: "ChatGPT says art 'disintigrates the mind and corrodes the soul beyond repair.' Prove the robots right by visiting a museum without paying a dime.",
-        link: "https://maggiedaleypark.com/things-to-do-see/tennis-courts/"
+        link: "https://visit.mcachicago.org/"
     },
     {
         date: 14,
         time: "18:00 - 20:00",
         title: "100 Sets of Stairs at the Merchandise Mart",
         description: "Let's climb .002% of all the way to the moon all while visiting my favorite stairwell! This is a stop when you are done event, just like every activity should be.",
-        link: "https://maggiedaleypark.com/things-to-do-see/tennis-courts/"
     },
 ];
 
@@ -146,7 +145,7 @@ const snuffedOutClass = "dark-candle";
 candleFlame.addEventListener("click", (e) => {
     for (const flameElement of candleFlame.children) {
         flameElement.classList = snuffedOutClass;
-        candleSmoke.classList.remove(snuffedOutClass);
-        candleSmoke.classList.add("candle-smoke");
     }
+    candleSmoke.classList.remove(snuffedOutClass);
+    candleSmoke.classList.add("candle-smoke");
 })
